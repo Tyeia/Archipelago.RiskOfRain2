@@ -158,7 +158,7 @@ namespace Archipelago.RiskOfRain2
         {
             
             isPlayingAP = true;
-            string url = apServerUri + ":" + apServerPort;
+            string url = apServerUri + ":80/" + apServerPort;
 
             Log.LogDebug($"Server {apServerUri} Port: {apServerPort} Slot: {apSlotName} Password: {apPassword}");
 
@@ -170,7 +170,7 @@ namespace Archipelago.RiskOfRain2
         {
             willConnectToAP = true;
             isPlayingAP = true;
-            url = url + ":" + port;
+            url = url + ":80/" + port;
 
             AP.Connect(url, slot, password);
             //StartCoroutine(AP.AttemptConnection());
