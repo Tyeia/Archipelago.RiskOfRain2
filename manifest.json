@@ -1,7 +1,7 @@
 ﻿{
 	"name": "Archipelago-OnePort",
-	"version_number": "1.5.3",
-	"website_url": "https://github.com/kindasneaki/Archipelago.RiskOfRain2",
+	"version_number": "1.5.5",
+	"website_url": "https://github.com/Tyeia/Archipelago.RiskOfRain2/tree/main",
 	"description": "Archipelago multiworld randomizer client implementation enabling Risk of Rain 2 based Archipelago runners.",
 	"dependencies": [
 		"bbepis-BepInExPack-5.4.2101",
